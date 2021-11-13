@@ -2,7 +2,7 @@
 //  ContentView.swift
 //  Weather App
 //
-//  Created by Adrian de Leon on 12/11/21.
+//  Created by Dessiree Sánchez on 12/11/21.
 //
 
 import SwiftUI
