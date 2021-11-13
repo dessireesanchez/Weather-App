@@ -7,6 +7,13 @@
 import CoreLocation
 import Foundation
 
+public final class WeatherService: NSObject {
+    
+    private let locationManager = CLLocationManager()
+    private let API_KEY = "1f4caa563a4545f6291ff64daabd2b2b"
+    private var completionHandler: ((Weather)-> Void)?
+}
+
 struct APIResponse: Decodable {
     let name: String
     let main: APIMain

@@ -12,6 +12,7 @@
 		EF193A01273F5904001E9A7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF193A00273F5904001E9A7E /* Assets.xcassets */; };
 		EF193A04273F5904001E9A7E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF193A03273F5904001E9A7E /* Preview Assets.xcassets */; };
 		EF193A0B273F6170001E9A7E /* WeatherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF193A0A273F6170001E9A7E /* WeatherService.swift */; };
+		EF193A0D273F6807001E9A7E /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF193A0C273F6807001E9A7E /* Weather.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		EF193A00273F5904001E9A7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF193A03273F5904001E9A7E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EF193A0A273F6170001E9A7E /* WeatherService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherService.swift; sourceTree = "<group>"; };
+		EF193A0C273F6807001E9A7E /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			children = (
 				EF1939FC273F5901001E9A7E /* WeatherApp.swift */,
 				EF193A0A273F6170001E9A7E /* WeatherService.swift */,
+				EF193A0C273F6807001E9A7E /* Weather.swift */,
 				EF1939FE273F5901001E9A7E /* ContentView.swift */,
 				EF193A00273F5904001E9A7E /* Assets.xcassets */,
 				EF193A02273F5904001E9A7E /* Preview Content */,
@@ -140,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF193A0D273F6807001E9A7E /* Weather.swift in Sources */,
 				EF1939FF273F5901001E9A7E /* ContentView.swift in Sources */,
 				EF193A0B273F6170001E9A7E /* WeatherService.swift in Sources */,
 				EF1939FD273F5901001E9A7E /* WeatherApp.swift in Sources */,
@@ -276,6 +280,8 @@
 				DEVELOPMENT_TEAM = 8A5NYV4XF5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Se necesita la ubicación para proporcionar el clima";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -305,6 +311,8 @@
 				DEVELOPMENT_TEAM = 8A5NYV4XF5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Se necesita la ubicación para proporcionar el clima";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
